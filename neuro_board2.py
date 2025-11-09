@@ -60,7 +60,7 @@ class Board:
         # Example: alternating tones for variety
         audio_layouts = {
             "Layout 1": [
-                ["Audio_Files/Hz400.wav", "click2.wav", "click3.wav", "click4.wav", "click1.wav", "click2.wav",
+                ["Hz400.wav", "click2.wav", "click3.wav", "click4.wav", "click1.wav", "click2.wav",
                  "click3.wav", "click4.wav"],
                 ["click2.wav", "click3.wav", "click4.wav", "click1.wav", "click2.wav", "click3.wav", "click4.wav",
                  "click1.wav"],
@@ -177,4 +177,5 @@ class Board:
 
         #  Reset timer
         self.start_time = pygame.time.get_ticks()
+
 
